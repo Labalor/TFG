@@ -31,12 +31,12 @@ M_tot = 5 						# Masa total de la estrella
 
 # Unidades
 #-------------------------------------------------------------------------------------------
-r = 10 ** 10  					# Radio 					[cm] 
-P = 10 ** 15  					# Presión 					[din cm−2] 
-T = 10 ** 7   					# Temperatura 				[K] 
-M = 10 ** 33  					# Masa 						[g] 
-L = 10 ** 33  					# Luminosidad 				[erg s−1] 
-rho = 1     					# Densidad 					[g cm−3] 
-epsilon = 1 					# Producción de energía 	[erg g−1 s−1]  
-kappa = 1   					# Opacidad 					[cm2 g−1] 
+r = 10 ** 10  					# Radio [cm] 
+P = 10 ** 15  					# Presión [din cm−2] 
+T = 10 ** 7   					# Temperatura  [K] 
+M = 10 ** 33  					# Masa [g] 
+L = 10 ** 33  					# Luminosidad [erg s−1] 
+rho = 1     					# Densidad [g cm−3] 
+epsilon = 1 					# Producción de energía [erg g−1 s−1]  
+kappa = 1   					# Opacidad [cm2 g−1] 
 #-------------------------------------------------------------------------------------------
