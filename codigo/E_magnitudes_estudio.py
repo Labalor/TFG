@@ -1,4 +1,5 @@
 
+# -*- coding: utf-8 -*-
 ########################################################################################################################
 ########################################################################################################################
 
@@ -19,7 +20,7 @@
 #------------------------------------------------------------------------------------------------------------------------
 # PAQUETES NECESARIOS
 #------------------------------------------------------------------------------------------------------------------------
-from C_algoritmos import * 				# Se importan los algoritmos de C_Algoritmos. (*)
+from C_algoritmos import * 				# Se importan los algoritmos de C_Algoritmos
 # from D_estudio import * 				# Se importa el estudio completo 
 import matplotlib.pyplot as plt 		# Se importa la biblioteca de matplotlib.pyplot como 'plt'
 from numpy import arange				# Se importa arange del paquete numpy
