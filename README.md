@@ -1,4 +1,4 @@
-![Test Image 1](encabezado.png)
+![Test Image 1](encabezado.jpg)
 
 **Trabajo de Fin de Grado - Departamento de Física de la Tierra y Astrofísica**
 
