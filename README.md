@@ -1,5 +1,3 @@
-# ![Test Image 1](encabezado.jpg)
-
 **Trabajo de Fin de Grado - Departamento de Física de la Tierra y Astrofísica**
 
 Se presenta el **código** desarrollado en una carpeta y las imágenes en otras dos carpetas: **diagramas_de_flujo** e **imagenes_resultados**.
