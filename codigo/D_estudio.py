@@ -10,7 +10,7 @@
 #                              				Autor: LUIS ABALO RODRÍGUEZ
 # 
 #                              				FACULTAD DE CIENCIAS FÍSICAS
-#                           				UNIVERSIDAD COMPLUTENSE DE MADRID
+#                           			  UNIVERSIDAD COMPLUTENSE DE MADRID
 # 
 #                               				CURSO ACADÉMICO 2019-2020
 #
@@ -50,9 +50,9 @@ print("\n --- Valor de la temperatura central --- \n",  "\n     Temperatura cent
 # (La temperatura central que se utiliza es la de menor error relativo, calculada previamente)
 #------------------------------------------------------------------------------------------------------------------------
 # Se procede al cálculo de la matriz de errores mínimos para cada par Radio-Luminosidad
-num = 20							# Número de divisiones
-L_lista = linspace(45, 45.4, num) 	# Límite de la luminosidad
-R_lista = linspace(11.5, 11.7, num)	# Límite del radio 
+num = 40							# Número de divisiones
+L_lista = linspace(39.9, 40.1, num) 	# Límite de la luminosidad
+R_lista = linspace(11.5, 12.2, num)	# Límite del radio 
 
 # Introduce el valor del tanto por ciento calculado
 print("\n--- Tanto por ciento del modelo calculado ---\n") 		

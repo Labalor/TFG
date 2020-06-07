@@ -10,7 +10,7 @@
 #                              				Autor: LUIS ABALO RODRÍGUEZ
 # 
 #                              				FACULTAD DE CIENCIAS FÍSICAS
-#                           				UNIVERSIDAD COMPLUTENSE DE MADRID
+#                           			  UNIVERSIDAD COMPLUTENSE DE MADRID
 # 
 #                               				CURSO ACADÉMICO 2019-2020
 #
@@ -28,20 +28,15 @@ from copy import copy
 #------------------------------------------------------------------------------------------------------------------------
 
 warnings.filterwarnings("ignore")
+'''
+R_tot_inicial = 11.636315
+L_tot_inicial = 45.2526
+T_centro = 1.8603
+'''
+R_tot_inicial = 12
+L_tot_inicial = 40
+T_centro = 1.5
 
-R_tot_inicial = 11.629113924050632 
-L_tot_inicial = 45.2506329113924
-T_centro = 1.8603603603603602  
-
-# 1 iteracion:  
-# 2 iteracion: 
-# 3 iteracion: 3.1178905511325166 
-# 4 iteracion: 2.31011772281779 
-# 5 iteracion: 1.7780332999027155 
-# 6 iteracion: 1.2374477877105639
-# 7 iteracion: 0.9653478031581336 
-# 8 iteracion: 0.6966399145461489
-# 9 iteracion: 0.4217028845084499  
 
 #------------------------------------------------------------------------------------------------------------------------
 # INTEGRACIÓN DESDE LA SUPERFICIE

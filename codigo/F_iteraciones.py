@@ -10,7 +10,7 @@
 #                              				Autor: LUIS ABALO RODRÍGUEZ
 # 
 #                              				FACULTAD DE CIENCIAS FÍSICAS
-#                           				UNIVERSIDAD COMPLUTENSE DE MADRID
+#                           			 UNIVERSIDAD COMPLUTENSE DE MADRID
 # 
 #                               				CURSO ACADÉMICO 2019-2020
 #
@@ -105,3 +105,18 @@ ax.grid(True)
 
 plt.show()
 #------------------------------------------------------------------------------------------------------------------------
+
+from numpy import pi
+# We defin a function to calculate then effective temperature
+L = 43.55
+R = 11.61
+L = L * 10 ** 33
+R = R * 10**10
+def Teff(L, R):
+
+    SB = 5.6704 * 10**-5
+    return (L / (4 * pi * R**2 * SB)) ** 0.25
+
+Teff_Model = Teff(L, R)
+
+print("Effective Temperature = {:.2f} K".format(Teff_Model))

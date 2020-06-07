@@ -10,7 +10,7 @@
 #                              				Autor: LUIS ABALO RODRÍGUEZ
 # 
 #                              				FACULTAD DE CIENCIAS FÍSICAS
-#                           				UNIVERSIDAD COMPLUTENSE DE MADRID
+#                           			  UNIVERSIDAD COMPLUTENSE DE MADRID
 # 
 #                               				CURSO ACADÉMICO 2019-2020
 #
@@ -20,17 +20,18 @@
 #------------------------------------------------------------------------------------------------------------------------
 # PAQUETES NECESARIOS
 #------------------------------------------------------------------------------------------------------------------------
-from C_algoritmos import * 				# Se importan los algoritmos de C_Algoritmos
-# from D_estudio import * 				# Se importa el estudio completo 
+# from C_algoritmos import * 				# Se importan los algoritmos de C_Algoritmos
+from D_estudio import * 				# Se importa el estudio completo 
 import matplotlib.pyplot as plt 		# Se importa la biblioteca de matplotlib.pyplot como 'plt'
 from numpy import arange				# Se importa arange del paquete numpy
 #------------------------------------------------------------------------------------------------------------------------
 
 # (*) Se carga C_Algoritmos y se introducen los valores de R, L y Tc manualmente 
-
+'''
 R = 11.6263157895 
 L = 45.2526315789 
 Tc = 1.86036036036 
+'''
 
 #------------------------------------------------------------------------------------------------------------------------
 # CREACIÓN DE UNA ÚNICA LISTA DE INTEGRACIÓN POR CAPAS
@@ -100,7 +101,7 @@ for i in range(len(plot_final)-1):
 		plot_final[i][j] = round(plot_final[i][j], 5)
 
 # Se muestra por pantalla la lista definitiva: 'plot_final'
-print(tabulate(plot_final, headers='firstrow', tablefmt='fancy_grid'))
+# print(tabulate(plot_final, headers='firstrow', tablefmt='fancy_grid'))
 #------------------------------------------------------------------------------------------------------------------------
 
 #------------------------------------------------------------------------------------------------------------------------
