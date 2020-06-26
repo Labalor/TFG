@@ -15,6 +15,10 @@ conclusion of the results obtained allows us to locate the star studied in the H
 diagram and discover its spectral type.
 
 **Cómo ejecutar el código**:
+Introducir la siguiente linea de comandos en la terminar:
+  ipython NombreDeFichero.py
+donde en NombreDeFichero se debe insertar el nombre del archivo que se desea ejecutar. 
+
 * [Archivo C - Algoritmos](https://github.com/Labalor/TFG/blob/master/codigo/C_algoritmos.py): 
   - Línea 32: insertar valor del Radio Total Inicial
   - Línea 33: insertar valor de la Luminosidad Total Inicial
