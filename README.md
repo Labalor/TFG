@@ -16,7 +16,9 @@ diagram and discover its spectral type.
 
 **Cómo ejecutar el código**:
 Introducir la siguiente linea de comandos en la terminar:
-  ipython NombreDeFichero.py
+
+ - ipython NombreDeFichero.py
+ 
 donde en NombreDeFichero se debe insertar el nombre del archivo que se desea ejecutar. 
 
 * [Archivo C - Algoritmos](https://github.com/Labalor/TFG/blob/master/codigo/C_algoritmos.py): 
